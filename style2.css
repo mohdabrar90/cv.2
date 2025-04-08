@@ -1,0 +1,113 @@
+
+body {
+    font-family: 'Merienda', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    font-family: 'Merienda', sans-serif;
+    color: #102235;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 36px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: #34495e;
+}
+
+/* Main CV container */
+#CV {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #f5f5f5;
+}
+
+/* CV Sections */
+#CV2, #CV3, #CV4, #CV5, #CV6 {
+    margin: 20px;
+    background-color: #399cc4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+td, th {
+    padding: 12px;
+    text-align: left;
+    font-size: 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+td b {
+    color: #ffffff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px 0;
+    font-size: 16px;
+    color: #070707;
+}
+
+/* Links Styling */
+#CV6 a {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #c5ccd1;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#CV6 a:hover {
+    background-color: #3498db;
+}
+
+/* Image Styling */
+#CV2 img {
+    border-radius: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #CV2 table {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    #CV2 td, #CV2 th {
+        display: inline-block;
+        width: 100%;
+    }
+
+    #CV6 {
+        text-align: center;
+    }
+}
+
+/* hobbise */
+

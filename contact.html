@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Merienda:wght@300..900&family=Rancho&display=swap" rel="stylesheet">
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Merienda', sans-serif;
+            background: linear-gradient(to right, #135058, #1d687a);
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            font-family: 'Merienda', sans-serif;
+            font-size: 2.8em;
+            color: #ffffff;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        #con, #con2 {
+            background-color: #76beee;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 700px;
+            margin: 20px;
+        }
+
+        /* Table Styling for Contact Details */
+        table {
+            width: 100%;
+            border-spacing: 10px;
+            margin-bottom: 20px;
+        }
+
+        td {
+            font-size: 1.2em;
+            padding: 10px;
+            text-align: left;
+            color: #333;
+        }
+
+        /* Form Label Styling */
+        label {
+            font-size: 1.1em;
+            color: #333;
+            margin-top: 15px;
+        }
+
+        /* Form Input Styling */
+        input[type="text"], input[type="email"], textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0 20px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            font-size: 1.1em;
+            transition: all 0.3s ease;
+        }
+
+        /* Textarea specific styling */
+        textarea {
+            height: 150px;
+            resize: none;
+        }
+
+        /* Input Focus Effect */
+        input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+            border-color: #345bdb;
+            outline: none;
+        }
+
+        /* Submit Button Styling */
+        input[type="submit"] {
+            padding: 14px 28px;
+            background-color: #0a3049;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #2980b9;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            #con, #con2 {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="con">
+        <h1>MY CONTACT DETAILS</h1>
+        <table>
+            <tr><td><strong>CONTACT NO.:</strong> 9010660212</td></tr>
+            <tr><td><strong>EMAIL:</strong> mohdabrar9010@gmail.com</td></tr>
+            <tr><td><strong>INSTAGRAM:</strong> @abrar._.editz</td></tr>
+        </table>
+    </div>
+
+    <div id="con2">
+        <h1>Contact Me</h1>
+        <form>
+            <label for="name">YOUR NAME:</label>
+            <input type="text" name="name" id="name" required><br>
+
+            <label for="email">YOUR EMAIL:</label>
+            <input type="email" name="email" id="email" required><br>
+
+            <label for="message">MESSAGE:</label>
+            <textarea name="message" id="message" required></textarea><br>
+
+            <input type="submit" value="SUBMIT">
+        </form>
+    </div>
+</body>
+</html>
